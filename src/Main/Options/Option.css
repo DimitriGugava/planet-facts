@@ -1,0 +1,71 @@
+.OptionMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 43px;
+  height: 20px;
+  width: 340px;
+  margin: auto;
+}
+
+.optionsListOverview {
+  height: 10px;
+  width: 80px;
+  font-family: "Spartan";
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 1.9285714626312256px;
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+
+.optionsListOverview:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.optionsListStructure {
+  height: 10px;
+  width: 80px;
+  font-family: "Spartan";
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 1.9285714626312256px;
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+.optionsListStructure:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+.optionsListSurface {
+  height: 10px;
+  width: 80px;
+  font-family: "Spartan";
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 1.9285714626312256px;
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+.optionsListSurface:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+.breakLineForOptionsMob {
+  height: 1px;
+  width: 375px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 1);
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}

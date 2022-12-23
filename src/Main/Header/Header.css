@@ -1,0 +1,71 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  gap: 194px;
+  height: 36px;
+  width: 327px;
+  margin: 16px auto;
+}
+.headerTitle {
+  height: 36px;
+  width: 109px;
+  font-family: "Antonio";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -1.0499999523162842px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.headerBreakLine {
+  height: 1px;
+  width: 375px;
+  margin: 16px auto;
+  background: rgba(255, 255, 255, 1);
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
+.planetListContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 44px auto;
+  height: 487px;
+  width: 327px;
+  display: none;
+}
+.planetlistBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  width: 325px;
+  border-radius: 0px;
+}
+
+.planetColor {
+  height: 20px;
+  width: 20px;
+  background: rgba(222, 244, 252, 1);
+  border-radius: 30px;
+}
+
+.planetName {
+  height: 25px;
+  width: 91px;
+  margin-left: 25px;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.3636363744735718px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.arrow {
+  height: 14px;
+  width: 12px;
+  margin-left: 165px;
+}

@@ -1,0 +1,6 @@
+.mainContainer {
+  height: 950px;
+  width: 375px;
+  margin: auto;
+  background-image: url(../icons//improved-starfield.png);
+}
