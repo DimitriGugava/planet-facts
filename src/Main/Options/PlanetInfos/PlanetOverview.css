@@ -1,3 +1,9 @@
+.planetImage {
+  height: 111px;
+  width: 111px;
+  margin: 30px 132px;
+}
+
 .planetTitle {
   height: 52px;
   width: 132px;
@@ -30,14 +36,14 @@
   flex-direction: row;
   margin: 32px auto;
   height: 35px;
-  width: 143px;
+  width: 100px;
 }
 .source {
   display: flex;
   align-items: center;
   height: 20px;
-  width: 100px;
-  margin: 32px auto;
+  width: 120px;
+  margin: auto;
   font-family: "Spartan";
   font-size: 11px;
   font-weight: 400;
@@ -49,7 +55,7 @@
   opacity: 0.5;
 }
 .sourceLink {
-  margin: 32px auto;
+  margin: 0px auto;
   font-family: "Spartan";
   font-size: 11px;
   font-weight: 400;
@@ -67,54 +73,11 @@
   opacity: 10;
 }
 .linkUrl {
-  height: 12px;
-  width: 15px;
+  height: 10px;
+  margin-bottom: -2px;
+  width: 12px;
 }
 .linkUrl:hover {
   cursor: pointer;
   mix-blend-mode: normal;
-}
-
-.planetInfoMainCont {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: 280px;
-  width: 327px;
-  margin: auto;
-  border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.statisticlInfoBox {
-  display: flex;
-  align-items: center;
-  gap: 135px;
-  height: 48px;
-  width: 327px;
-  margin: auto;
-}
-
-.statisticInfoTitle {
-  height: 16px;
-  width: 80px;
-  margin-left: 24px;
-  font-family: "Spartan";
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.7272727489471436px;
-  text-align: left;
-  color: rgba(255, 255, 255, 1);
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
-
-.statitsicNumbers {
-  font-family: "Antonio";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: -0.75px;
-  text-align: right;
-  color: rgba(255, 255, 255, 1);
 }

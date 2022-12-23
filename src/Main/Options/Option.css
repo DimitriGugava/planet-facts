@@ -18,12 +18,13 @@
   letter-spacing: 1.9285714626312256px;
   text-align: center;
   color: rgb(139, 139, 139);
+  text-decoration: none;
 }
 
 .optionsListOverview:hover {
   cursor: pointer;
   text-decoration: underline;
-  text-underline-offset: 30px;
+  text-underline-offset: 27px;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -37,11 +38,12 @@
   letter-spacing: 1.9285714626312256px;
   text-align: center;
   color: rgb(139, 139, 139);
+  text-decoration: none;
 }
 .optionsListStructure:hover {
   cursor: pointer;
   text-decoration: underline;
-  text-underline-offset: 30px;
+  text-underline-offset: 27px;
   color: rgba(255, 255, 255, 1);
 }
 .optionsListSurface {
@@ -54,11 +56,12 @@
   letter-spacing: 1.9285714626312256px;
   text-align: center;
   color: rgb(139, 139, 139);
+  text-decoration: none;
 }
 .optionsListSurface:hover {
   cursor: pointer;
   text-decoration: underline;
-  text-underline-offset: 30px;
+  text-underline-offset: 27px;
   color: rgba(255, 255, 255, 1);
 }
 .breakLineForOptionsMob {

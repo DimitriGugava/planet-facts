@@ -33,7 +33,7 @@
   margin: 44px auto;
   height: 487px;
   width: 327px;
-  display: none;
+  /* display: none; */
 }
 .planetlistBox {
   display: flex;
@@ -50,22 +50,84 @@
   background: rgba(222, 244, 252, 1);
   border-radius: 30px;
 }
-
+.planetColorVenys {
+  height: 20px;
+  width: 20px;
+  background: #f7cc7f;
+  border-radius: 30px;
+}
+.planetColorEarth {
+  height: 20px;
+  width: 20px;
+  background: #545bfe;
+  border-radius: 30px;
+}
+.planetColorMars {
+  height: 20px;
+  width: 20px;
+  background: #ff6a45;
+  border-radius: 30px;
+}
+.planetColorJupiter {
+  height: 20px;
+  width: 20px;
+  background: #ecad7a;
+  border-radius: 30px;
+}
+.planetColorSaturn {
+  height: 20px;
+  width: 20px;
+  background: rgba(252, 203, 107, 1);
+  border-radius: 30px;
+}
+.planetColorUranus {
+  height: 20px;
+  width: 20px;
+  background: rgba(101, 240, 213, 1);
+  border-radius: 30px;
+}
+.planetColorNeptune {
+  height: 20px;
+  width: 20px;
+  background: rgba(73, 126, 250, 1);
+  border-radius: 30px;
+}
+.scroll:hover {
+  cursor: pointer;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
 .planetName {
   height: 25px;
   width: 91px;
   margin-left: 25px;
   font-family: "Spartan";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 1.3636363744735718px;
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
+.planetName:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .arrow {
   height: 14px;
   width: 12px;
   margin-left: 165px;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+
+.headerBreakLine2 {
+  height: 1px;
+  width: 375px;
+  margin: 20px -24px;
+  background: rgba(255, 255, 255, 1);
+  mix-blend-mode: normal;
+  opacity: 0.2;
 }
